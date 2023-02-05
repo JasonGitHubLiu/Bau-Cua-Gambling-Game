@@ -1,0 +1,117 @@
+#restartButton{
+  width: 100px;
+  height: 50px;
+  font-size: 1.5rem;
+  background-color: green;
+  color: white;
+  transition: transform 0.3s ease 0s;
+}
+
+#restartButton:hover{
+  transform: translateY(-10px)
+}
+
+#gameContainer{
+  text-align: center;
+  }
+
+h1{
+  color: white;
+  text-shadow: 1px 1px 2px red, 0 0 1em black, 0 0 0.2em #fab838;
+  font-size: 6vh;
+}
+
+h2{
+text-align: center;
+color: white;
+text-shadow: 1px 1px 2px red, 0 0 1em black, 0 0 0.2em black ;
+font-size: 3vh;
+}
+
+.container {
+    /* height: 90vh;
+    width: 90vw; */
+    margin: 2rem;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+  }
+
+  .cell {
+    height: 200px;
+    width: 200px;
+    color: #fab838;
+    text-shadow: 3px 1px 2px#e81d30, 0 0 1em black, 0 0 0.2em #c91901 ;
+    font-size: 3rem;
+    text-align: center;
+    padding: 2rem;
+    font-size: 4vh;
+    border: solid #fab838;
+  }
+
+  .cell-1 {
+    background: #c91901;
+    background-image: url(/images/baucuadeer.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .cell-2 {
+    background: red;
+    background-image: url(/images/baucuagourd.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .cell-3 {
+    background: #c91901;
+    background-image: url(/images/baucuachicken.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .cell-4 {
+    background: red;
+    background-image: url(/images/baucuafish.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .cell-5 {
+    background: #c91901;
+    background-image: url(/images/baucuacrab.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .cell-6 {
+    background: red;
+    background-image: url(/images/baucuashrimp.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  body{
+    background-image: url('/images/baucuatomca_game_mat.png');
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  /* https://jessicatlam.com/baucuatomca.html */
+  /* https://averweij.web.cern.ch/averweij/baucuacacop.htm#:~:text=Players%20place%20wagers%20on%20a,receives%20two%20times%20their%20money. */
