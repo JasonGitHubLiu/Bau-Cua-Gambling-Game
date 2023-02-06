@@ -2,8 +2,8 @@
   width: 100px;
   height: 50px;
   font-size: 1.5rem;
-  background-color: green;
-  color: white;
+  background-color: #fab838;
+  color:#890500;
   transition: transform 0.3s ease 0s;
 }
 
@@ -15,9 +15,18 @@
   text-align: center;
   }
 
+#btnInstructions{
+  width: 10vw;
+  height: 6vh;
+  font-size: 2vh, 2vw;
+  background-color: #fab838;
+  color:#890500;
+}
+
 h1{
-  color: white;
-  text-shadow: 1px 1px 2px red, 0 0 1em black, 0 0 0.2em #fab838;
+text-align: center;
+  color: #fab838;
+  text-shadow: 1px 1px 2px red, 0 0 1em black, 0 0 0.2em black;
   font-size: 6vh;
 }
 
@@ -26,6 +35,13 @@ text-align: center;
 color: white;
 text-shadow: 1px 1px 2px red, 0 0 1em black, 0 0 0.2em black ;
 font-size: 3vh;
+}
+
+h3{
+text-align: center;
+color: #fab838;
+text-shadow: 1px 1px 2px red, 0 0 1em black, 0 0 0.2em black ;
+font-size: 2vh;
 }
 
 .container {
@@ -60,7 +76,7 @@ font-size: 3vh;
   }
 
   .cell-2 {
-    background: red;
+    background: #c91901;
     background-image: url(/images/baucuagourd.png);
     background-size: contain;
     background-repeat: no-repeat;
@@ -78,7 +94,7 @@ font-size: 3vh;
     align-items: center;
   }
   .cell-4 {
-    background: red;
+    background: #c91901;
     background-image: url(/images/baucuafish.png);
     background-size: contain;
     background-repeat: no-repeat;
@@ -96,7 +112,7 @@ font-size: 3vh;
     align-items: center;
   }
   .cell-6 {
-    background: red;
+    background: #c91901;
     background-image: url(/images/baucuashrimp.png);
     background-size: contain;
     background-repeat: no-repeat;
@@ -106,7 +122,8 @@ font-size: 3vh;
   }
 
   body{
-    background-image: url('/images/baucuatomca_game_mat.png');
+    /* background-image: url('/images/baucuatomca_game_mat.png'); */
+    background-color: #890500;
     background-size: cover;
     display: flex;
     justify-content: center;
